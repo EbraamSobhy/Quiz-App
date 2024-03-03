@@ -1,0 +1,86 @@
+body {
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    color:white;
+    font-size: 50px;
+}
+    
+  .app-title {
+  color: white;
+  margin-top: 50px;  
+  padding: 50px;
+  font-size: 70px;
+  border-radius: 50px;
+  border-color: white;
+  background-color: darkblue;
+  box-shadow:  0 8px 8px 0 black, 0 10px 20px 0 black;
+}
+
+.container {
+  margin: 5px;
+  padding: 20px;
+  background-color: darkblue;
+  box-shadow:  0 8px 8px 0 blue, 0 10px 20px 0 blue;
+  float: right;
+  font-size: 30px;
+  width: 500px;
+  border-radius: 40px;
+  border-color: black;
+  border-style: solid;
+  text-align: center;
+}
+
+#submit{
+    width: 30%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.ques{
+  display: flex;
+}
+
+  input[type="radio"] { 
+    background-color: #f0f0f0; 
+    border-color: #ccc;  
+    border-width: 1px; 
+  } 
+
+  input[type="radio"]:checked {  
+    background-color: black;  
+    border-color: black; 
+  } 
+
+  .score{
+    margin: 5px;
+    padding: 20px;
+    background-color: rgb(90, 90, 90);
+    box-shadow:  0 8px 8px 0 black, 0 10px 20px 0 black;
+    font-size: 30px;
+    width: 500px;
+    border-radius: 40px;
+    border-color: white;
+    border-style: solid;
+    color: black;
+    justify-content: center;
+  }
+
+  .timer {
+    margin: 5px;
+    padding: 20px;
+    background-color: black;
+    box-shadow:  0 8px 8px 0 black, 0 10px 20px 0 black;
+    font-size: 30px;
+    width: 300px;
+    border-radius: 40px;
+    border-color: white;
+    border-style: solid;
+}
+#countdown{
+  color: red;
+  font-weight: bold;
+}
